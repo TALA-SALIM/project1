@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en , ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TALA VISA</title>
+    <link rel="stylesheet" href="visastyle.css">
+    
+</head>
+<body>
+   <div class="container">
+  <div class="form">
+    <h2>أملأ البيانات التالية  </h2>
+    <label>اسم المستخدم </label>
+    <input type="text" id="input-name" placeholder="ex : Ahmad mohmad"/>
+    <label>رقم البطاقة </label>
+    <input type="tel" id="input-number" placeholder="ex:1111 2222 3333 4444"/>
+    <label>تاريخ الصلاحية </label>
+    <input type="date" id="input-expiry" placeholder="MM/YY"/>
+    <label>CVV</label>
+    <input type="text" id="input-cvv" placeholder="123"/>
+  </div>
+
+  <div class="card" id="card">
+    <div class="card-inner" id="card-inner">
+      <div class="card-front">
+        <div class="chip"></div>
+        <div class="card-details">
+          <p id="card-name">Person Name</p>
+          <p id="card-number">1111 2222 3333 4444</p>
+          <p>Expiry: <span id="card-expiry">02/30</span></p>
+        </div>
+        <div class="bank-name">Bank Name</div>
+        <div class="logo">MasterCard</div>
+      </div>
+
+      <div class="card-back">
+        <div class="cvv-box">
+          <label>CVV</label>
+          <div id="card-cvv">***</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <script src="visascrpit.js"></script>
+
+
+</body>
+</html>
